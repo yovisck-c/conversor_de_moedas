@@ -1,4 +1,8 @@
-#  Conversor de Moedas
+<p align="center">
+  <img src="./capa_projeto.png" alt="Capa do projeto Conversor de Moedas" />
+</p>
+
+<h1 align="center">#  Conversor de Moedas</h1>
 
 Projeto pessoal desenvolvido com foco em **praticar conceitos fundamentais de JavaScript**, como:
 
