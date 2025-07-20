@@ -15,7 +15,7 @@ Todas as mudanças e melhorias realizadas neste projeto são listadas abaixo em 
 
 ----------
 
-## [v1.1.0] – 2025-07-21
+## [v1.1.0] – 2025-07-19
 ### Adicionado
 - Botão 🔁 para inverter moedas com ícone Font Awesome (`fa-right-left`)
 - Estilização do botão como botão circular moderno
@@ -24,11 +24,12 @@ Todas as mudanças e melhorias realizadas neste projeto são listadas abaixo em 
 
 ----------
 
-## [v1.2.0] – 2025-07-21
+## [v1.2.0] – 2025-07-20
 ### Adicionado
 - Implementação do modo escuro (🌙/☀️) com alternância via botão
 - Atualização visual para todos os componentes no tema escuro
 - Botão com ícone e troca de texto dinâmica (Modo Claro/Escuro)
+- Publicação no GitHub Pages!
 
 ----------
 
@@ -37,7 +38,6 @@ Todas as mudanças e melhorias realizadas neste projeto são listadas abaixo em 
 - Histórico de conversões
 - Animação no botão 🔁
 - Salvamento do tema escuro com `localStorage`
-- Publicação no GitHub Pages
 
 ----------
 
