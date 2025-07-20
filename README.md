@@ -61,7 +61,7 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 Você pode clonar o repositório:
 
 ```bash
-git clone https://github.com/yovisck-c/conversor-de-moedas.git
+git clone https://github.com/yovisck-c/conversor_de_moedas.git
 ```
 
 Depois, basta abrir o arquivo `index.html` no navegador.
