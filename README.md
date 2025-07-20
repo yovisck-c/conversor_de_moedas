@@ -68,7 +68,7 @@ Depois, basta abrir o arquivo `index.html` no navegador.
 
 ##  Projeto online
 
-O projeto será publicado via GitHub Pages em breve!
+🔗 [https://yovisck-c.github.io/conversor_de_moedas/](https://yovisck-c.github.io/conversor_de_moedas/)
 
 ----------
 
