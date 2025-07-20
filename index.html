@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de moedas</h1>
+
+    <button id="toggleDarkMode" title="Alternar modo escuro">🌙 Modo Escuro</button>
+
+    <input
+      type="number"
+      id="amount"
+      placeholder="Valor em moeda de origem"
+    />
+
+    <div class="currency-row">
+      <select id="fromCurrency">
+        <option value="BRL" selected>Real (BRL)</option>
+        <option value="USD">Dólar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+      </select>
+
+      <button id="swapButton" title="Inverter moedas">
+        <i class="fas fa-right-left"></i>
+      </button>
+
+      <select id="toCurrency">
+        <option value="USD">Dólar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+      </select>
+    </div>
+
+    <button onclick="convertCurrency()">Converter</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
