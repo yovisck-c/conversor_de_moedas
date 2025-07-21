@@ -112,3 +112,14 @@ button:hover {
   color: var(--secondary-color);
   text-align: center;
 }
+
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}

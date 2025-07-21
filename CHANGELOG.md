@@ -33,11 +33,34 @@ Todas as mudanças e melhorias realizadas neste projeto são listadas abaixo em 
 
 ----------
 
-## [v1.3.0] – EM BREVE
-### Planejado
-- Histórico de conversões
-- Animação no botão 🔁
-- Salvamento do tema escuro com `localStorage`
+## [v1.3.0] – 2025-07-21
+### Adicionado
+- Nova estrutura de pastas (assets/, scripts/, styles/) para melhor organização do projeto
+- Imagem de capa do projeto adicionada para uso no README.md
+- Atualização do README.md com visual melhorado e instruções de uso
+- Exibição do horário da taxa de câmbio com base na API
+- Botão "Atualizar taxa" para forçar nova requisição da taxa de câmbio
+- Design ajustado do modo escuro/claro (visualmente mais refinado)
+- Adição de escrita informando qual versão utilizada (e data de atualização)
+
+### Alterado
+- Código do script.js refatorado para separar responsabilidades
+- style.css atualizado com melhorias de espaçamento, legibilidade e acessibilidade
+- Caminhos atualizados no index.html conforme nova organização
+
+### Corrigido
+- Correção no comportamento do botão de inverter moedas (antes ele convertia automaticamente)
+- Problema de acentuação e termos duplicados em imagens de capa
+
+----------
+
+## [v1.3.1] – 2025-07-21
+### Corrigido
+- O botão "Modo Escuro" agora alterna corretamente entre "🌙 Modo Escuro" e "☀️ Modo Claro"
+- Corrigido o erro de carregamento do script causado por caminho incorreto e MIME Type inválido
+
+### Alterado
+- Script atualizado para garantir que toda lógica roda após `DOMContentLoaded`, evitando erros de elementos nulos
 
 ----------
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/images/capa_projeto.png" alt="Capa do projeto Conversor de Moedas" />
+  <img src="assets/capa_projeto.png" alt="Capa do projeto Conversor de Moedas" />
 </p>
 
 <h1 align="center">Conversor de Moedas</h1>
