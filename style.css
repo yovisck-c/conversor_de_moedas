@@ -1,190 +1,114 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #333;
+  --card-color: #fff;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f4f4f4;
+  --card-color: #1e1e1e;
+  --primary-color: #66b2ff;
+  --secondary-color: #999;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f2f4f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .container {
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  width: 100%;
   max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
+  text-align: center;
   margin-bottom: 20px;
-  font-size: 1.8rem;
-  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 input,
 select {
   width: 100%;
-  margin-bottom: 15px;
-  padding: 12px;
-  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  outline: none;
-  transition: border-color 0.2s ease;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
 }
 
-input:focus,
-select:focus {
-  border-color: #4a90e2;
-}
-
-.currency-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 15px;
-}
-
-.currency-row select {
-  flex: 1;
-}
-
-button:not(#swapButton):not(#toggleDarkMode) {
-  padding: 12px 20px;
-  background-color: #4a90e2;
-  color: white;
-  border: none;
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
   font-size: 16px;
+  border: none;
   border-radius: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
   cursor: pointer;
-  margin: 10px 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
-button:not(#swapButton):not(#toggleDarkMode):hover {
-  background-color: #357ac9;
+button:hover {
+  background-color: #0056b3;
+}
+
+#swapBtn {
+  background-color: var(--secondary-color);
+  margin-top: 10px;
+}
+
+#swapBtn:hover {
+  background-color: #555;
+}
+
+#refreshRatesBtn {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+#refreshRatesBtn:hover {
+  background-color: #1e7e34;
+}
+
+#toggleTheme {
+  background-color: #444;
+  margin-top: 15px;
+}
+
+#toggleTheme:hover {
+  background-color: #222;
 }
 
 #result {
   margin-top: 20px;
-  font-size: 18px;
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
-#swapButton {
-  background-color: #4a90e2;
-  border: none;
-  border-radius: 50%;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 18px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-#swapButton:hover {
-  background-color: #357ac9;
-}
-
-#toggleDarkMode {
-  margin-bottom: 20px;
-  background-color: #f2f2f2;
-  color: #111;
-  border: none;
-  padding: 10px 16px;
-  font-size: 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.dark-mode {
-  background: #1e1e1e;
-  color: #f2f2f2;
-}
-
-.dark-mode .container {
-  background: #2c2c2c;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
-}
-
-.dark-mode h1 {
-  color: #ffffff;
-}
-
-.dark-mode input,
-.dark-mode select {
-  background-color: #3a3a3a;
-  border: 1px solid #555;
-  color: #fff;
-}
-
-.dark-mode input:focus,
-.dark-mode select:focus {
-  border-color: #6fa8dc;
-}
-
-.dark-mode button:not(#swapButton):not(#toggleDarkMode) {
-  background-color: #444;
-  color: #fff;
-}
-
-.dark-mode #swapButton {
-  background-color: #666;
-}
-
-.dark-mode #swapButton:hover {
-  background-color: #777;
-}
-
-.dark-mode #result {
-  color: #ffffff;
-}
-
-.dark-mode #toggleDarkMode {
-  background-color: #3a3a3a;
-  color: #fff;
-  border: 1px solid #666;
-}
-
-@media (max-width: 480px) {
-  .container {
-    padding: 25px;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  input,
-  select {
-    font-size: 15px;
-  }
-
-  button {
-    width: 100%;
-  }
-
-  .currency-row {
-    flex-direction: column;
-  }
-
-  #swapButton {
-    margin: 10px 0;
-  }
+#lastUpdated {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  text-align: center;
 }
