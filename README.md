@@ -1,19 +1,22 @@
 <p align="center">
-  <img src="assets/capa_projeto.png" alt="Logo do Conversor de Moedas" width="120">
+  <img src="./assets/capa_projeto.png" alt="Capa do Projeto" width="600"/>
 </p>
 
 <h1 align="center">Conversor de Moedas</h1>
 
 <p align="center">
-  <a href="https://yovisck-c.github.io/conversor_de_moedas/" target="_blank">🔗 Projeto Online</a> •
-  <a href="./CHANGELOG.md" target="_blank">🧾 Changelog</a>
+  <a href="https://yovisck-c.github.io/conversor_de_moedas/">
+    <img src="https://img.shields.io/badge/Projeto%20Online-blue?style=for-the-badge&logo=github" alt="Projeto Online" />
+  </a>
+  <a href="./CHANGELOG.md">
+    <img src="https://img.shields.io/badge/Changelog-grey?style=for-the-badge&logo=readme" alt="Changelog" />
+  </a>
 </p>
 
-
 <p align="center">
-  <img src="https://img.shields.io/badge/status-online-brightgreen?style=flat-square"/>
-  <img src="https://img.shields.io/badge/version-1.3.1-blue?style=flat-square"/>
-  <img src="https://img.shields.io/badge/css-37.7%25-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/status-online-brightgreen?style=flat-square" />
+  <img src="https://img.shields.io/badge/version-1.3.1-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/css-37.7%25-blue?style=flat-square" />
 </p>
 
 ---
