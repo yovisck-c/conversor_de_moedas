@@ -9,6 +9,7 @@
   <a href="./CHANGELOG.md" target="_blank">🧾 Changelog</a>
 </p>
 
+
 <p align="center">
   <img src="https://img.shields.io/badge/status-online-brightgreen?style=flat-square"/>
   <img src="https://img.shields.io/badge/version-1.3.1-blue?style=flat-square"/>
