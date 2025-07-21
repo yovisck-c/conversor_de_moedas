@@ -1,20 +1,21 @@
+
 <p align="center">
-  <img src="assets/capa_projeto.png" alt="Capa do projeto Conversor de Moedas" />
+  <img src="assets/capa_projeto.png" alt="Capa do projeto Conversor de Moedas" width="600" />
 </p>
 
-<h1 align="center">Conversor de Moedas</h1>
+<h1 align="center">💱 Conversor de Moedas</h1>
 
-Projeto pessoal desenvolvido com foco em **praticar conceitos fundamentais de JavaScript**, como:
+<p align="center">
+  <a href="https://yovisck-c.github.io/conversor_de_moedas/">🔗 Projeto Online</a> • 
+  <a href="./CHANGELOG.md">📝 Changelog</a> • 
+  <img src="https://img.shields.io/badge/status-online-brightgreen" alt="Status" />
+  <img src="https://img.shields.io/badge/version-1.3.1-blue" alt="Versão" />
+  <img src="https://img.shields.io/github/languages/top/yovisck-c/conversor_de_moedas" alt="Linguagem principal" />
+</p>
 
-- Consumo de APIs públicas com `fetch`
-- Manipulação de DOM
-- Layouts responsivos com CSS Flexbox
-- Temas dinâmicos (modo claro/escuro)
-- Organização de código para portfólio
+---
 
-----------
-
-##  Objetivo
+## 🚀 Objetivo
 
 Este projeto foi criado como parte do meu processo de estudos em **desenvolvimento front-end**, com o intuito de:
 
@@ -23,20 +24,20 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 - Criar interações úteis com **JavaScript Vanilla (sem frameworks)**
 - Aprimorar o visual e usabilidade de interfaces
 
-----------
+---
 
-##  Funcionalidades
+## ✨ Funcionalidades
 
 - Conversão entre moedas (BRL, USD, EUR)
 - Integração com API pública de câmbio em tempo real ([open.er-api.com](https://www.exchangerate-api.com/))
 - Botão 🔁 para inverter as moedas de forma dinâmica
-- Modo claro/escuro com alternância ao clicar
+- Modo claro/escuro com alternância ao clicar 🌙☀️
 - Design responsivo para desktop e mobile
 - Interface visual moderna com ícones e flexbox
 
-----------
+---
 
-##  Tecnologias utilizadas
+## 🛠 Tecnologias utilizadas
 
 - HTML5
 - CSS3 (responsivo + modo escuro)
@@ -44,9 +45,9 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 - API: [open.er-api.com](https://www.exchangerate-api.com/)
 - Font Awesome (ícones)
 
-----------
+---
 
-##  Aprendizados com o projeto
+## 📘 Aprendizados com o projeto
 
 - Estruturação de código em arquivos separados
 - Boas práticas de acessibilidade (rótulos, contraste)
@@ -54,42 +55,41 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 - Criação de temas visuais e alternância dinâmica de classes
 - Organização incremental usando `CHANGELOG.md`
 
-----------
+---
 
-##  Como usar
+## ⚙️ Como usar
 
-Você pode clonar o repositório:
+Clone o repositório:
 
 ```bash
 git clone https://github.com/yovisck-c/conversor_de_moedas.git
 ```
 
-Depois, basta abrir o arquivo `index.html` no navegador.
+Depois, abra o arquivo `index.html` no navegador.
 
->  Recomendado: use o Live Server (extensão do VS Code) para melhor experiência.
+> 💡 Recomendado: use a extensão Live Server no VS Code para melhor experiência.
 
-----------
+---
 
-##  Projeto online
+## 🌐 Projeto online
 
 🔗 [https://yovisck-c.github.io/conversor_de_moedas/](https://yovisck-c.github.io/conversor_de_moedas/)
 
-----------
+---
 
-##  Histórico de versões
+## 📌 Histórico de versões
 
 Consulte o arquivo [`CHANGELOG.md`](./CHANGELOG.md) para ver todas as atualizações feitas até o momento.
 
-----------
+---
 
-##  Autor
+## 👩‍💻 Autor
 
-Desenvolvido por [Maria Clara Piromali Guarizo](https://github.com/yovisck-c)\
-📬 Contato: [LinkedIn](https://www.linkedin.com/in/maria-clara-piromali-guarizo-6b8a21357/)
+Desenvolvido por [Maria Clara Piromali Guarizo](https://github.com/yovisck-c)  
+📬 [LinkedIn](https://www.linkedin.com/in/maria-clara-piromali-guarizo-6b8a21357/)
 
-----------
+---
 
-##  Licença
+## 🧾 Licença
 
 Este projeto é livre para estudo e uso pessoal. Sinta-se à vontade para contribuir, clonar ou adaptar para seus próprios testes.
-
