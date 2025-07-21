@@ -1,0 +1,114 @@
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #333;
+  --card-color: #fff;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+body.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f4f4f4;
+  --card-color: #1e1e1e;
+  --primary-color: #66b2ff;
+  --secondary-color: #999;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--card-color);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#swapBtn {
+  background-color: var(--secondary-color);
+  margin-top: 10px;
+}
+
+#swapBtn:hover {
+  background-color: #555;
+}
+
+#refreshRatesBtn {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+#refreshRatesBtn:hover {
+  background-color: #1e7e34;
+}
+
+#toggleTheme {
+  background-color: #444;
+  margin-top: 15px;
+}
+
+#toggleTheme:hover {
+  background-color: #222;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#lastUpdated {
+  margin-top: 5px;
+  font-size: 0.85rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
