@@ -66,4 +66,4 @@ Todas as mudanças e melhorias realizadas neste projeto são listadas abaixo em 
 
 👤 Autor: Maria Clara Piromali Guarizo 
 🔗 GitHub: [@yovisck-c](https://github.com/yovisck-c)  
-🌍 Projeto online (em breve)
+🌍 [GitHub Page](https://yovisck-c.github.io/conversor_de_moedas)

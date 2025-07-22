@@ -21,7 +21,7 @@
 
 ---
 
-## 🚀 Objetivo
+## Objetivo
 
 Este projeto foi criado como parte do meu processo de estudos em **desenvolvimento front-end**, com o intuito de:
 
@@ -32,7 +32,7 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Conversão entre moedas (BRL, USD, EUR)
 - Integração com API pública de câmbio em tempo real ([open.er-api.com](https://www.exchangerate-api.com/))
@@ -43,7 +43,7 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 
 ---
 
-## 🛠 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - HTML5
 - CSS3 (responsivo + modo escuro)
@@ -53,7 +53,7 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 
 ---
 
-## 📘 Aprendizados com o projeto
+## Aprendizados com o projeto
 
 - Estruturação de código em arquivos separados
 - Boas práticas de acessibilidade (rótulos, contraste)
@@ -63,7 +63,7 @@ Este projeto foi criado como parte do meu processo de estudos em **desenvolvimen
 
 ---
 
-## ⚙️ Como usar
+## Como usar
 
 Clone o repositório:
 
@@ -73,29 +73,29 @@ git clone https://github.com/yovisck-c/conversor_de_moedas.git
 
 Depois, abra o arquivo `index.html` no navegador.
 
-> 💡 Recomendado: use a extensão Live Server no VS Code para melhor experiência.
+> Recomendado: use a extensão Live Server no VS Code para melhor experiência.
 
 ---
 
-## 🌐 Projeto online
+## Projeto online
 
 🔗 [https://yovisck-c.github.io/conversor_de_moedas/](https://yovisck-c.github.io/conversor_de_moedas/)
 
 ---
 
-## 📌 Histórico de versões
+## Histórico de versões
 
 Consulte o arquivo [`CHANGELOG.md`](./CHANGELOG.md) para ver todas as atualizações feitas até o momento.
 
 ---
 
-## 👩‍💻 Autor
+## Autor
 
 Desenvolvido por [Maria Clara Piromali Guarizo](https://github.com/yovisck-c)  
-📬 [LinkedIn](https://www.linkedin.com/in/maria-clara-piromali-guarizo-6b8a21357/)
+[LinkedIn](https://www.linkedin.com/in/maria-clara-piromali-guarizo-6b8a21357/)
 
 ---
 
-## 🧾 Licença
+## Licença
 
 Este projeto é livre para estudo e uso pessoal. Sinta-se à vontade para contribuir, clonar ou adaptar para seus próprios testes.
